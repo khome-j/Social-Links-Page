@@ -1,15 +1,10 @@
-@media only screen and (max-width: 375px) {
-    body, .wrapper {
-        width:100%;
+@media only screen and (min-width: 500px) {
+    body, img {
+        width: 50%;
     }
 }
 
 
-* {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 @font-face {
     font-family: 'Inter';
@@ -21,18 +16,28 @@
 }
 
 
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-size: 14px;
     font-family: Inter;
     width: 100%;
+    /* margin: 0 auto; */
+
     text-align: center;
     background-color:hsl(0, 0%, 8%);
     /* border: 2px solid blue; */
 }
 
 .wrapper {
-    width: 30em;
-    margin: 100px auto;
+    width: 30%;
+    margin: 50px auto;
     background-color:hsl(0, 0%, 12%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
@@ -49,7 +54,7 @@ header>p {
 
 img {
     margin: 50px 0 10px 0;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 100px;
 }
 
