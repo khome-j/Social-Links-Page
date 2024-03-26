@@ -1,8 +1,13 @@
-@media only screen and (min-width: 500px) {
-    body, img {
-        width: 50%;
-    }
+/* @media only screen and (max-width: 400px) {
+    body {
+        width: 100%;
+    } */
+    /* h1 {
+        font-size: large;
+    } */
+
 }
+
 
 
 
@@ -26,9 +31,9 @@
 
 body {
     font-size: 14px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 
     text-align: center;
     background-color:hsl(0, 0%, 8%);
@@ -45,7 +50,8 @@ body {
 }
 
 header {
-    margin: 20px;
+    margin: 20px auto;
+    /* width: 100% */
 }
 
 header>p {
@@ -54,12 +60,12 @@ header>p {
 
 img {
     margin: 50px 0 10px 0;
-    /* padding: 10px; */
     border-radius: 100px;
 }
 
 h1 {
     padding: 10px;
+    text-align: center;
 }
 
 p[class="front"] {
@@ -77,11 +83,16 @@ p[class="main1"]:hover {
     color: black;
 }
 
-
-
 .main a {
     text-decoration: none;
     color: inherit;
 
 }
-
+/* 
+.front {
+    /* word-spacing: 0.5em; */
+    padding: 10px 0 5px 0;
+    margin: 20px 10px 15px 10px;
+    border: 2px solid blue;
+    font-size: 1.1em; */
+}
