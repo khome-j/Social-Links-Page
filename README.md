@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/khome-j/Social-Links-Page.git)
-- Live Site URL: [](https://khome-j.github.io/Social-Links-Page/)
+- Solution URL: [GitHub](https://github.com/khome-j/Social-Links-Page.git)
+- Live Site URL: [GitHub](https://khome-j.github.io/Social-Links-Page/)
 
 ## My process
 I achieved a responsive layout for this webpage using CSS flexbox. The body element acts as the flex container, and I set its display property to flex. This allows me to arrange the child elements of the body in a flexible manner. To control the width of these child elements, I used the flex-basis property with a value of 30%. This ensures they will all take up 30% of the available space within the body container and adjust accordingly on various screen sizes.
