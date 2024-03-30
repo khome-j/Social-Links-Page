@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL ](https://github.com/khome-j/Social-Links-Page.git)
+- Solution URL: [](https://github.com/khome-j/Social-Links-Page.git)
 - Live Site URL: [](https://khome-j.github.io/Social-Links-Page/)
 
 ## My process
